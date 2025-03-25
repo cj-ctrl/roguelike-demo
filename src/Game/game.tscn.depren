@@ -9,7 +9,7 @@
 [node name="Game" type="Node2D"]
 script = ExtResource("1_ne6pe")
 
-[node name="InputHandler" type="Node" parent="."]
+[node name="EventHandler" type="Node" parent="."]
 script = ExtResource("3_4f56l")
 
 [node name="Map" type="Node2D" parent="."]

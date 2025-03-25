@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://n87rw5cxnnn8"]
 
 [ext_resource type="Script" uid="uid://b10g56vgm8qfo" path="res://src/Game/game.gd" id="1_ne6pe"]
-[ext_resource type="Script" uid="uid://d2j3t05doucfr" path="res://src/Game/input-handler.gd" id="3_4f56l"]
+[ext_resource type="Script" uid="uid://d2j3t05doucfr" path="res://src/Game/EventHandler.gd" id="3_4f56l"]
 [ext_resource type="Script" uid="uid://c7j20ujwqm7kq" path="res://src/Map/map.gd" id="3_xyl86"]
 [ext_resource type="Script" uid="uid://cyreheqm2onvr" path="res://src/Map/dungeon_generator.gd" id="4_15hgc"]
 [ext_resource type="Script" uid="uid://bpnk1jqannkoo" path="res://src/Map/field_of_view.gd" id="5_bvmgb"]
