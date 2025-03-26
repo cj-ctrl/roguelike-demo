@@ -23,7 +23,9 @@ func set_entity_type(entity_definition: EntityDefinition) -> void:
 
 
 func move(move_offset: Vector2i) -> void:
+	map_data.unregister_blocking_entity(self)
 	grid_position += move_offset
+	map_data.register_blocking_entity(self)
 
 
 func is_blocking_movement() -> bool:
