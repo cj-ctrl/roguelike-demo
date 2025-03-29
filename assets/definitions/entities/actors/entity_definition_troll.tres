@@ -13,3 +13,5 @@ name = "Troll"
 texture = SubResource("AtlasTexture_xeb23")
 color = Color(0.133333, 0.533333, 0.133333, 1)
 is_blocking_movement = true
+type = 2
+ai_type = 0

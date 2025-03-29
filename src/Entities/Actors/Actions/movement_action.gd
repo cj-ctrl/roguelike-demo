@@ -10,3 +10,4 @@ func perform() -> void:
 	if get_blocking_entity_at_destination():
 		return
 	entity.move(offset)
+	

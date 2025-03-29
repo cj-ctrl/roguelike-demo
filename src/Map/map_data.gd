@@ -88,3 +88,18 @@ func setup_pathfinding() -> void:
 	for entity in entities:
 		if entity.is_blocking_movement():
 			register_blocking_entity(entity)
+
+
+func get_actors() -> Array[Entity]:
+	var actors: Array[Entity] = []
+	for entity in entities:
+		if entity.is_alive():
+			actors.append(entity)
+	return actors
+
+
+func get_actor_at_location(location: Vector2i) -> Entity:
+	for actor in get_actors():
+		if actor.grid_position == location:
+			return actor
+	return null
